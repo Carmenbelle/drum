@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: clamp(200px, 95vh, 400px);
+    width: clamp(390px, 100%, 1343px);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 25px;
+    flex-wrap: wrap;
+}
+
+.key {
+    padding: 20px;
+    margin: auto;
+    border: 1px solid pink;
+    margin: 20px;
+}
+
+kbd{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(244, 208, 7);
+}
+
+.key:hover{
+    border: 2px solid rgb(224, 191, 3);
+    padding: 25px;
+    transition: 0.5s;
+}
